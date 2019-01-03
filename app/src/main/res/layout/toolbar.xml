@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.design.widget.AppBarLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">-->
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginStart="10sp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="10sp"
+    android:background="@drawable/layout_bg"
+    android:elevation="4dp"
+    android:theme="@style/Toolbar"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/toolbar_title_night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/deadheadscript"
+        android:paddingTop="-4sp"
+        android:text="Nightfall"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/toolbar_title_night_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/deadheadscript"
+        android:paddingTop="-4sp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="@font/gveretlevinalefalefalefregular"
+        android:paddingTop="-4sp"
+        android:paddingEnd="20sp"
+        android:text="@string/bsd"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"/>
+</android.support.v7.widget.Toolbar><!--</android.support.design.widget.AppBarLayout>-->

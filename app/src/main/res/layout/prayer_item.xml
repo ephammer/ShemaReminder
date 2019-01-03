@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/prayerItem_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParagraphTitleTextView"
+        tools:text="Title"
+        />
+
+    <TextView
+        android:id="@+id/prayerItem_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParagraphSubTitleTextView"
+        tools:text="Subtitle"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/prayerItem_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParagraphCaptionTextView"
+        tools:text="Caption"
+        android:visibility="gone"
+        android:paddingBottom="-16sp"
+        />
+    <TextView
+        android:id="@+id/prayerItem_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParagraphMainTextView"
+        tools:text="Main"
+        android:padding="16dp"
+        />
+</LinearLayout>
